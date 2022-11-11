@@ -13,7 +13,7 @@ struct MockAPIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
