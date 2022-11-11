@@ -9,8 +9,6 @@ import SwiftUI
 
 @main
 struct MockAPIApp: App {
-    let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
             ProductListView()
