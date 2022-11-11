@@ -24,7 +24,7 @@ struct ProductListView: View {
                     }) {
                         prodListVM.showFav ? Text("Show All") : Text("Show Favorites")
                     }
-                    .foregroundColor(Color(UIColor.systemBackground).isDarkColor ? .white : .black)
+                    .foregroundColor(Color(UIColor.systemBackground).isDarkColor ? .black : .white)
                 }
                 .padding(16)
                 
