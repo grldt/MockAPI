@@ -12,7 +12,6 @@ struct MockAPIApp: App {
     var body: some Scene {
         WindowGroup {
             ProductListView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
